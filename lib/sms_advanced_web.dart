@@ -4,7 +4,7 @@ import 'dart:async';
 
 import 'package:flutter/services.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
-import 'package:flutter_web_plugins/flutter_web_plugins.dart';
+//import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 /// A web implementation of the SmsAdvanced plugin.
