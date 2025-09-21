@@ -12,8 +12,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_web_plugins:
-    sdk: flutter
   plugin_platform_interface: ^2.1.2
   url_launcher: ^6.1.11
 
@@ -34,6 +32,3 @@ flutter:
         pluginClass: SmsAdvancedPlugin
       ios:
         pluginClass: UssdAdvancedPlugin
-      web:
-        pluginClass: SmsAdvancedPlugin
-        fileName: sms_advanced_web.dart
