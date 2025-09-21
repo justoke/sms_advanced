@@ -1,6 +1,6 @@
 import 'dart:async';
 // ignore: avoid_web_libraries_in_flutter
-import 'dart:html' as html show window;
+//import 'dart:html' as html show window;
 
 import 'package:flutter/services.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
@@ -8,7 +8,7 @@ import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 /// A web implementation of the SmsAdvanced plugin.
-class SmsAdvancedPlugin extends PlatformInterface {
+/*class SmsAdvancedPlugin extends PlatformInterface {
   SmsAdvancedPlugin() : super(token: _token);
 
   static final Object _token = Object();
@@ -76,3 +76,4 @@ bool isCupertino() {
   }
   return false;
 }
+*/
